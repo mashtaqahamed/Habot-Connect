@@ -7,13 +7,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import ProviderList from "./components/pages/ProviderList";
+import ProviderList from "./data/pages/ProviderList";
 import "./custom.css";
-import NotFound from "./components/pages/NotFound";
+import NotFound from "./pages/NotFound";
 import providersData from "./data/providers.json";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ProviderDetail from "./components/pages/ProviderDetail";
+import ProviderDetail from "./pages/ProviderDetail";
 import Header from "./components/Header";
 
 function AnimatedRoutes({ providers }) {
