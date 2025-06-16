@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "name": "Bright Minds",
+    "specialization": "Dyslexia Support",
+    "location": "Mumbai",
+    "rating": 4.5,
+    "shortDescription": "Expert support for children with dyslexia.",
+    "longDescription": "Bright Minds offers tailored programs for children with dyslexia, helping them improve literacy skills in a nurturing environment.",
+    "contactEmail": "contact@brightminds.com",
+    "phoneNumber": "9876543210"
+  },
+  {
+    "id": "2",
+    "name": "Focus Forward",
+    "specialization": "ADHD Coaching",
+    "location": "Bangalore",
+    "rating": 4.0,
+    "shortDescription": "Helping children with ADHD succeed.",
+    "longDescription": "Focus Forward coaches children with ADHD using personalized approaches to improve attention and reduce behavioral challenges.",
+    "contactEmail": "info@focusforward.com",
+    "phoneNumber": "9123456780"
+  },
+  {
+    "id": "3",
+    "name": "Learning Lighthouse",
+    "specialization": "Autism Support",
+    "location": "Delhi",
+    "rating": 4.8,
+    "shortDescription": "Structured learning for children with autism.",
+    "longDescription": "Learning Lighthouse provides a safe and structured environment to help children with autism spectrum disorders thrive in both academic and social settings.",
+    "contactEmail": "support@learninglighthouse.com",
+    "phoneNumber": "9812345678"
+  },
+  {
+    "id": "4",
+    "name": "SkillSprout",
+    "specialization": "Speech Therapy",
+    "location": "Pune",
+    "rating": 4.2,
+    "shortDescription": "Professional speech therapy for children.",
+    "longDescription": "SkillSprout delivers high-quality speech therapy sessions, helping children improve articulation, fluency, and overall communication skills.",
+    "contactEmail": "contact@skillsprout.org",
+    "phoneNumber": "9988776655"
+  },
+  {
+    "id": "5",
+    "name": "Mind Bloom",
+    "specialization": "Behavioral Therapy",
+    "location": "Hyderabad",
+    "rating": 4.6,
+    "shortDescription": "Behavioral support for children with emotional needs.",
+    "longDescription": "Mind Bloom focuses on managing emotional and behavioral challenges through play therapy, CBT, and family support plans.",
+    "contactEmail": "hello@mindbloom.co.in",
+    "phoneNumber": "9876501234"
+  },
+  {
+    "id": "6",
+    "name": "Thrive Tutors",
+    "specialization": "Special Education",
+    "location": "Chennai",
+    "rating": 4.4,
+    "shortDescription": "Customized learning for special education needs.",
+    "longDescription": "Thrive Tutors creates custom academic plans for children with learning disabilities, using adaptive teaching methods.",
+    "contactEmail": "services@thrivetutors.in",
+    "phoneNumber": "9123459876"
+  },
+  {
+    "id": "7",
+    "name": "NeuroNest",
+    "specialization": "Cognitive Development",
+    "location": "Ahmedabad",
+    "rating": 4.7,
+    "shortDescription": "Boosting cognitive skills in children.",
+    "longDescription": "NeuroNest uses brain-training activities to strengthen focus, memory, and logic skills for children with cognitive delays.",
+    "contactEmail": "contact@neuronest.com",
+    "phoneNumber": "9090909090"
+  },
+  {
+    "id": "8",
+    "name": "Growth Edge",
+    "specialization": "Occupational Therapy",
+    "location": "Kolkata",
+    "rating": 4.3,
+    "shortDescription": "Enhancing motor and daily living skills.",
+    "longDescription": "Growth Edge supports children in developing fine/gross motor skills and independence through evidence-based occupational therapy.",
+    "contactEmail": "reach@growthedge.in",
+    "phoneNumber": "9876549876"
+  },
+  {
+    "id": "9",
+    "name": "Step Up Services",
+    "specialization": "Developmental Delay Support",
+    "location": "Jaipur",
+    "rating": 4.1,
+    "shortDescription": "Helping kids meet developmental milestones.",
+    "longDescription": "Step Up Services provides early intervention programs designed to help children with developmental delays catch up with their peers.",
+    "contactEmail": "info@stepupservices.com",
+    "phoneNumber": "9000001111"
+  },
+  {
+    "id": "10",
+    "name": "Bright Horizons",
+    "specialization": "Emotional Wellness",
+    "location": "Lucknow",
+    "rating": 4.9,
+    "shortDescription": "Building emotional intelligence in children.",
+    "longDescription": "Bright Horizons helps children navigate emotions and build resilience through therapeutic storytelling and mindfulness practices.",
+    "contactEmail": "connect@brighthorizons.org",
+    "phoneNumber": "9888998877"
+  }
+]

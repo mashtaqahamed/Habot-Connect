@@ -1,0 +1,17 @@
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.provider-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.provider-card:hover {
+  transform: scale(1.03);
+}
