@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { fetchProviders } from '../api';
+import { fetchProviders } from '../../api';
 import { Container, Button } from 'react-bootstrap';
 
 const ProviderDetail = () => {
@@ -14,7 +14,7 @@ const ProviderDetail = () => {
     });
   }, [id]);
 
-  if (!provider) return <Container className="mt-4"><h2>Provider not found</h2></Container>;
+  if (!provider) return <Container className="mt-4"><h2>Loading .....</h2></Container>;
 
   return (
     <Container className="mt-4">
