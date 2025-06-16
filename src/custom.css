@@ -15,3 +15,7 @@ body.dark {
 .provider-card:hover {
   transform: scale(1.03);
 }
+
+.body-style{
+  background-color: #e2e8f0;
+}

@@ -14,26 +14,18 @@ import providersData from "./data/providers.json";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProviderDetail from "./pages/ProviderDetail";
+import Header from "./components/Header";
 
 function AnimatedRoutes({ providers }) {
   const location = useLocation();
   const [searchTerm, setSearchTerm] = useState("");
-  const [theme, setTheme] = useState("light");
-
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    document.body.className = newTheme; // Switch body class
-  };
+  
 
   return (
     
-    <div className="bodyStyle">
+    <div className="body-style">
+    <Header/>
     <AnimatePresence mode="wait" >
-      <button onClick={toggleTheme} className="btn btn-sm btn-secondary m-2">
-        Toggle {theme === "light" ? "Dark" : "Light"} Theme
-      </button>
-
       <Routes location={location} key={location.pathname}>
         <Route
           path="/"
@@ -58,6 +50,8 @@ function AnimatedRoutes({ providers }) {
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      
+       
     </AnimatePresence>
     </div>
   );

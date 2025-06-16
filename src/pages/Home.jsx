@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Header from '../components/Header';
+
 import SearchBar from '../components/SearchBar';
 import ProviderCard from '../components/ProviderCard';
 import data from '../data/providers.json';
@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
-      <Header />
+     
       <div className="container mx-auto mt-6 px-4">
         <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
